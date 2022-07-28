@@ -1,0 +1,122 @@
+.container {
+    width: 1880px;
+    height:1200px;
+    border: 3px solid black;
+    display:inline-block;
+    align-items: center;
+}
+
+.dojonary {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    background-color: lightgray;
+    position:absolute;
+    top: 6.6%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search {
+    width: 200px;
+    height: 20px;
+    margin-left: 150px;
+    border: 3px solid black;
+}
+
+.login {
+    font-size: 20px;
+    margin-left: 150px;
+    background-color: blue;
+    color: #fff!important;
+    border: none;
+    box-shadow: 6px 6px #000;
+    text-decoration: none;
+}
+
+.definition {
+    margin-top: 150px;
+    margin-left: 440px;
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.definition2 {
+    margin-top: 150px;
+    margin-left: 440px;
+    width: 600px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.adddef {
+    float: right;
+    margin-right: 435px;
+    margin-top: -562px;
+    width: 365px;
+    height: 180px;
+    border: 3px solid black;
+}
+
+.ninja {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.noun {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 30px;
+    margin-bottom: 0px;
+    color: gray
+}
+
+.plural {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.like {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: gold;
+    border: none;
+    box-shadow: 6px 6px #000;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.line {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 200px;
+    margin-top: -100px;
+}
+.line2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-left: 200px;
+    margin-top: -10px;
+}
+
+.def {
+    margin-left: 10px;
+}
+
+.defbutton {
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: lightgreen;
+    border: none;
+    box-shadow: 6px 6px #000;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}

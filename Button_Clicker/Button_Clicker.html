@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dojonary</title>
+    <link rel="stylesheet" type="text/css" href="/Button_Clicker/clicker.css">
+</head>
+<body>
+    <div class="container">
+        <div class="dojonary">
+            <h1 style="margin-left:15px;">Dojonary</h1>
+            <input class="search" type="text" placeholder="Search..">
+            <button id="l" class="login">Login</button>
+            <script>
+                var elem = document.getElementById('l');
+
+                elem.addEventListener('click', () => {
+                    elem.innerText = "Logout";
+                });
+            </script>
+        </div>
+
+        <div class="definition">
+            <h1 class="ninja">ninja</h1>
+            <h4 class="noun"><i>noun</i></h2>
+            <h4 class="plural">Plural: <i>ninjas</i></h3>
+            <button class="like" onclick="alert('Ninja was liked')"><b>13 Likes</b></button>
+            <p class="line"><b>A practitioner skilled in the</b></p>
+            <p class="line2">
+                <b>
+                    <u style="color:blue">Japanese</u> 
+                    art of 
+                    <u style="color:blue">ninjutsu</u>
+                </b>
+            </p>
+        </div>
+
+        <div class="definition2">
+            <h1 class="ninja">ninja</h1>
+            <h4 class="noun"><i>noun</i></h2>
+            <h4 class="plural">Plural: <i>ninjas</i></h3>
+            <button class="like" onclick="alert('Ninja was liked')"><b>37 Likes</b></button>
+            <p class="line">
+                <b>
+                    A 
+                    <u style="color:blue">programmer</u> 
+                    who breaks
+                </b>
+            </p>
+            <p class="line2">
+                <b>
+                    down problems with
+                    <u style="color:blue">zen</u>-like focus
+                </b>
+            </p>
+        </div>
+
+        <div class="adddef">
+            <h1 class="def"><b>Dojonary is</b></h1>
+            <h1 class="def"><b>defined by YOU</b></h1>
+            <button id="i" class="defbutton"><b>Add Definition</b></button>
+            <script>
+                var btn = document.getElementById('i');
+
+                btn.addEventListener('click', () => {
+                    btn.style.display = 'none';
+                });
+            </script>
+        </div>
+    </div>
+</body>
+</html>

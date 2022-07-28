@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-size: 40pt;
+}
+
+.col {
+    width: 1860px;
+    height: 250px;
+    margin:20px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2 {
+    width: 1860px;
+    height: 250px;
+    margin:20px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col3 {
+    width: 1860px;
+    height: 250px;
+    margin:20px;
+    background-color: navajowhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    padding: 200px;
+}
